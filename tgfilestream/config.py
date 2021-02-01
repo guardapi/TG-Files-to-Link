@@ -38,7 +38,7 @@ trust_headers = bool(os.environ.get("TRUST_FORWARD_HEADERS"))
 host = os.environ.get("HOST", "localhost")
 public_url = URL(os.environ.get("PUBLIC_URL", f"http://{host}:{port}"))
 
-session_name = os.environ.get("TG_SESSION_NAME", "tgfilestream")
+session_name = os.environ.get("1BJWap1wBu5M-grvyjZkW_IIuHvk8uVtitvX87jpfv1amemE_jkrvLOB9xSu7LFXVzFBaASic-FT_oKWVv3h6RtyP5VmbltmJPffOFPTFWIy5LHgStZxOnGX6r6Dy7z4kldL1bSnxP5JwiIVygC4AjV6RYFAEcAm2jAJL9kZGHexufK9NLNOmTHG1ocNhicIHBW2kVnWU1LTTWNLDieRpIhZwa6qOJlSD9oYFnJWRy9kEG-Vmua1801rJ5RJS162qFGXxQyJUMlVFpYEacnz0np9avFmc1y6f0-FH0p0JisaEjKaFOn5kXpDwgP1xuGav47H-sQkZ-Z_fYSJ66kNBbAAkFne615k=")
 
 log_config = os.environ.get("LOG_CONFIG")
 debug = bool(os.environ.get("DEBUG"))
